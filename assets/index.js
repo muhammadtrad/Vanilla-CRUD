@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
-
+// get Todos when button is clicked
 const getTodos = () => {
 // fetch all the list items from the FB
   fetch('/text')
