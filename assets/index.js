@@ -14,6 +14,7 @@ const getTodos = () => {
       listEl.innerText = '';
       // loop through the array and add each object to the DOM
       list.forEach((todo) => {
+        // add all items from database
         addItem(todo);
       });
     });
