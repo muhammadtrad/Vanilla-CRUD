@@ -19,9 +19,8 @@ const getTodos = () => {
       });
     });
 };
-
+// invoke getTodos function
 getTodos();
-
 // THIS WILL ADD THE LIST ITEM TO THE DOM ONLY AND DELETE BUTTON WITH EVENT LISTENER
 const addItem = (todo) => {
 // add the list item
